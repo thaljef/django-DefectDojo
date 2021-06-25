@@ -1,5 +1,5 @@
 # requirements.txt for DefectDojo using Python 3.x
-asteval==0.9.18
+asteval==0.9.23
 bleach>=3.1.0
 celery==4.4.2
 coverage==5.1
@@ -9,7 +9,7 @@ django-auditlog==0.4.7
 git+https://github.com/DefectDojo/django-custom-field.git@4e095dd9119858e90fd21560e5618c6347e4ef1b#egg=django-custom-field
 django-dbbackup>=3.2.0
 django-environ==0.4.5
-django-filter==2.2.0
+django-filter==2.4.0
 django-imagekit==4.0.2
 django-multiselectfield==0.1.12
 django-overextends==0.4.3
@@ -21,7 +21,7 @@ git+https://github.com/DefectDojo/django-tastypie-swagger.git@c7c5629480dc20cadd
 django-tastypie==0.14.2
 django-watson==1.5.5
 django-prometheus==2.0.0
-Django==2.2.13
+Django==2.2.19
 djangorestframework==3.11.0
 gunicorn==20.0.4
 html2text==2020.1.16
@@ -34,7 +34,7 @@ mysqlclient==1.4.6
 pandas>=0.25
 xlrd>=1.0.0
 pdfkit==0.6.1
-Pillow==7.1.1  # required by django-imagekit
+Pillow==8.1.0  # required by django-imagekit
 psycopg2-binary==2.8.5
 cryptography==2.9
 python-dateutil==2.8.1
@@ -44,7 +44,7 @@ redis==3.4.1
 requests>=2.22.0
 sqlalchemy  # Required by Celery broker transport
 supervisor==4.1.0
-urllib3==1.25.8
+urllib3==1.25.9
 uWSGI==2.0.18
 vobject==0.9.6.1
 whitenoise>=4.1.2
