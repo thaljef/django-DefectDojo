@@ -34,7 +34,7 @@ mysqlclient==1.4.6
 pandas>=0.25
 xlrd>=1.0.0
 pdfkit==0.6.1
-Pillow==7.1.1  # required by django-imagekit
+Pillow==9.2.0  # required by django-imagekit
 psycopg2-binary==2.8.5
 cryptography==2.9
 python-dateutil==2.8.1
@@ -58,3 +58,4 @@ google-api-python-client==1.8.0
 google-auth==1.14.0
 google-auth-oauthlib==0.4.1
 drf_yasg==1.17.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
